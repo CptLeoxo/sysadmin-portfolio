@@ -4,19 +4,19 @@ This roadmap tracks my journey.
 
 ---
 
-## 🛠 Phase 1: Automation & Configuration (Current -> 20.04.2026)
+## 🛠 Phase 1: Automation & Configuration (Current -> Q3-Q4 2026)
 **Goal:** Transitioning from manual "on-host" changes to code-driven management.
 
 | Objective | Focus Area | Status |
 | :--- | :--- | :--- |
-| **Ansible Mastery** | Playbooks, Roles, & Idempotency | 🥚 Learning |
-| **Advanced Linux** | Kernel tuning & Memory management | 🐣 Improving |
-| **Version Control** | GitHub Flow | 🐥 Implementing |
-| **SSL Automation** | Let's Encrypt & Certbot automation | 🥚 Planned |
+| **Ansible Mastery** | Playbooks, Roles, & Idempotency | [ ] Learning |
+| **Advanced Linux** | Kernel tuning & Memory management | [~] Improving |
+| **Version Control** | GitHub Flow | [x] Implementing |
+| **SSL Automation** | Let's Encrypt & Certbot automation | [ ] Planned |
 
 ---
 
-## 🧪 Phase 2: CI/CD & Service Delivery (Next 3-6 Months)
+## 🧪 Phase 2: CI/CD & Service Delivery (Q4 2026)
 **Goal:** Automating the "Life Cycle" of a service from code to production.
 
 * **GitHub Actions:** Automating Terraform linting and Ansible syntax checks.
@@ -26,7 +26,7 @@ This roadmap tracks my journey.
 
 ---
 
-## ☁️ Phase 3: Scaling & Cloud Orchestration (2027)
+## ☁️ Phase 3: Scaling & Cloud Orchestration (Q1 2027)
 **Focus:** Managing "Fleets" of servers rather than individual nodes.
 
 * **Public Cloud:** Terraform providers for **AWS/Azure** to build hybrid-cloud environments.
@@ -42,4 +42,4 @@ I follow a **"Security-First"** approach. My roadmap includes the constant integ
 * Automated Backup & Disaster Recovery testing.
 
 ---
-*Last Updated: 20 April 2026*
+*Last Updated: 18.08.2026*
