@@ -43,4 +43,4 @@ The lab is organized into logical layers, separating foundational platform provi
 All sensitive information (API keys, passwords, private IP addresses) has been externalized using environment variables or placeholder files. No proprietary or copyrighted educational materials are included in this repository.
 
 ---
-**Maintained by cleo | 2026** *Infrastructure Engineer in Training*
+**Maintained by Kai | 2026** *System Administrator | Infrastructure Engineer*
