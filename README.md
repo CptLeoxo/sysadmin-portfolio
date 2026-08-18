@@ -10,11 +10,12 @@ This repository serves as a public showcase of my **Infrastructure-as-Code (IaC)
 
 | Domain | Technology & Tools | Implementation Area |
 | :--- | :--- | :--- |
-| **Automation** | Ansible, Terraform | Proxmox Provisioning, OS Configuration |
-| **Containers** | Docker, Docker-Compose | Game Service Stacks, Microservices |
-| **Monitoring** | Zabbix, Prometheus, Grafana | LLD, Custom Dashboards, Alerting |
-| **Networking** | Bind9, Nginx, Wireguard | DNS Management, Reverse Proxying |
-| **Systems** | Debian, Ubuntu, FreeBSD, Alpine | Hardening, Kernel Tuning, Scripting |
+| **Virtualization & IaC** | Proxmox, Terraform, Ansible | Cluster Provisioning, OS Configuration |
+| **Containers** | Docker, Docker-Compose | Service Stacks, Microservices |
+| **Monitoring & ITSM** | Zabbix, Prometheus, GLPI, Zammad | Alerting, Asset Tracking, SLA & Ticketing |
+| **Networking & Web** | Cisco, Bind9 (DNS), Nginx, Apache | Routing, DNS Management, Reverse Proxying |
+| **Security & VPN** | OpenVPN, Wireguard | Secure Tunnels, Remote Site Connectivity |
+| **Systems** | Linux (Debian, Alpine), FreeBSD, OpenBSD | Hardening, Kernel Tuning, Scripting |
 
 👉 **[View my detailed Learning & Infrastructure Roadmap here](./ROADMAP.md)**
 
