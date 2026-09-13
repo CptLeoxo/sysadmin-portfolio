@@ -1,5 +1,7 @@
 # Raspberry Pi Zabbix Kiosk Controller
 
+## Status: Archived. This project was built for specific physical hardware and is retained for portfolio demonstration of Wayland and Linux kernel input manipulation.
+
 ## Purpose
 
 This project provides an automated kiosk environment for a Raspberry Pi displaying a Zabbix monitoring dashboard. It includes scripts to manage Wayland display states (`wlr-randr`) and remotely inject hardware keystrokes (F11 for fullscreen) via the Linux `/dev/input` subsystem.
