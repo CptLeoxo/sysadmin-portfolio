@@ -1,43 +1,46 @@
 # Systems & Infrastructure Lab 🛠️
 
-## This repo is in working process!! 
+> **Status:** 🏗️ Under Active Development
 
-This repository serves as a public showcase of my infrastructure-as-code (IaC) templates, monitoring configurations, and automation assets. 
+This repository serves as a public showcase of my **Infrastructure-as-Code (IaC)** templates, monitoring configurations, and automation assets. My goal is to demonstrate a structured, scalable approach to systems administration, prioritizing **automation, reliability, and security.**
 
-The goal is to demonstrate a structured approach to systems administration, focused on automation, reliability, and security.
+---
 
-## 🛠 Technical Skills
-/ Something need to be remembered well / 
+### 🛠 Technical Proficiency Matrix
 
-**Core Infrastructure**
-* **Operating Systems:** Debian, Ubuntu Server, Alpine Linux, FreeBSD
-* **Virtualization:** Proxmox VE (Cluster management, backup policies)
-* **Networking:** DNS (Bind9), Nginx (Reverse Proxy/LB), OpenVPN, Wireguard
+| Domain | Technology & Tools | Implementation Area |
+| :--- | :--- | :--- |
+| **Automation** | Ansible, Terraform | Proxmox Provisioning, OS Configuration |
+| **Containers** | Docker, Docker-Compose | Game Service Stacks, Microservices |
+| **Monitoring** | Zabbix, Prometheus, Grafana | LLD, Custom Dashboards, Alerting |
+| **Networking** | Bind9, Nginx, Wireguard | DNS Management, Reverse Proxying |
+| **Systems** | Debian, Ubuntu, FreeBSD, Alpine | Hardening, Kernel Tuning, Scripting |
 
-**Infrastructure as Code & Automation**
-* **IaC:** Terraform (Proxmox provider specialist)
-* **Configuration Management:** Ansible (Learning in progress ⏳)
-* **Scripting:** Bash, Python (Automation & API integrations)
-* **Version Control:** Git (GitHub flow)
+👉 **[View my detailed Learning & Infrastructure Roadmap here](./ROADMAP.md)**
 
-**Observability & Monitoring**
-* **Enterprise Monitoring:** Zabbix (Advanced templates, LLD)
-* **Modern Stack:** Prometheus & Grafana (Visualizing infrastructure metrics)
+---
 
-**DevOps & Future Focus**
-* **Containers:** Docker, Docker-Compose
-* **Cloud & Orchestration:** AWS, Azure, Kubernetes (Roadmap 2027)
+### 📂 Repository Structure
 
-## 📂 Repository Structure
+The lab is organized into logical layers, separating foundational platform provisioning from high-level service delivery.
 
-* `terraform/` — Modular HCL configurations for Proxmox VM/LXC provisioning.
-* `zabbix/` — Sanitized XML/YAML templates and custom discovery scripts.
-* `docker/` — Production-ready compose files for infrastructure services.
-* `scripts/` — Bash and Python utilities for system hardening and maintenance.
+* **`infrastructure/`** — Provisioning and configuration management.
+    * `terraform/` — Modular HCL configurations for Proxmox VM/LXC provisioning.
+    * `ansible/` — Playbooks for server hardening and software orchestration.
+* **`services/`** — Production-ready workloads.
+    * `docker/` — Compose files for infrastructure services (Zammad, GLPI, Nginx).
+    * `networking/` — Configuration templates for Bind9, OpenVPN, and Wireguard.
+* **`observability/`** — Monitoring and Visualization.
+    * `zabbix/` — Sanitized XML/YAML templates and custom discovery scripts.
+    * `grafana/` — JSON exports for infrastructure performance dashboards.
+* **`scripts/`** — Automation utilities.
+    * `bash/` & `python/` — Utilities for system health checks and API integrations.
 
-## 🔒 Security Note
+---
+
+### 🔒 Security Note
 
 All sensitive information (API keys, passwords, private IP addresses) has been externalized using environment variables or placeholder files. No proprietary or copyrighted educational materials are included in this repository.
 
 ---
-*Maintained by cleo | 2026*
+**Maintained by cleo | 2026** *Infrastructure Engineer in Training*
