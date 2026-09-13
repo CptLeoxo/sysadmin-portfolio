@@ -31,7 +31,7 @@ The lab is organized into logical layers, separating foundational platform provi
 * **`services/`** — Production-ready workloads.
     * `docker/` — Compose files for infrastructure services (Zammad, GLPI, Nginx).
     * `networking/` — Configuration templates for Bind9, OpenVPN, and Wireguard.
-* **`observability/`** — Monitoring and Visualization.
+* **`observatory/`** — Monitoring and Visualization.
     * `zabbix/` — Sanitized XML/YAML templates and custom discovery scripts.
     * `grafana/` — JSON exports for infrastructure performance dashboards.
 * **`scripts/`** — Automation utilities.
